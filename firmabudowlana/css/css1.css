@@ -1,0 +1,434 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body {
+    padding:0px;
+    background-color: #fcf9f9;
+
+    
+
+}
+#menu {
+    background-color:#000000;
+    color:#fff;
+    position:sticky;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100px;
+    z-index:999;
+
+    
+
+}
+.container {
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    width:1200px;
+    margin:0 auto;
+    height:100px;
+    
+}
+.odnośniki a {
+    color:#fff;
+    text-decoration:none;
+    margin:0px 15px;
+    padding:6px;
+    transition:0.1s all;
+    border-bottom:2px solid transparent;
+    font-size:20px; 
+    text-transform:uppercase;
+    font-family:Arial;
+}
+.odnośniki a:hover {
+    border-bottom:2px solid #fff;
+    transition:0.1s all;
+}
+.ohis{
+    width:620px;
+    height:320px;
+    float:right;
+    margin-left:12px;
+
+}
+.p2{
+    text-align:justify;
+    font-size:30px;
+    font-family:Arial;
+    padding:10px;
+    margin:10px;
+    text-indent:25px;
+
+}
+
+#p1 {
+
+    font-size:52px;
+    font-family:Arial;
+    font-weight:bold;
+ 
+}
+.napiszobrazka {
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+    
+.budowanie {
+    width:100%;
+    height:52px;
+    background-color:#e8ebea;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:2rem;
+
+    }
+    .p3 {
+    font-size:400px;
+    font-family:arial;
+    font-weight:bold;
+    padding:10px;    
+  
+    
+    /* text-align:left; */
+    }
+    .roboty {
+    width:275px;
+    height:250px;
+    padding:5px;
+    display: flex;
+    flex-direction: row-reverse;
+    float:left;
+     margin:30px;
+    border:3px solid black;
+    }
+
+
+
+.footer {
+    background-color:#000000;
+    width:100%;
+    z-index:1;
+    
+
+}
+.footer .social {
+    text-align:center;
+    padding-bottom:5px;
+    color:#fff;
+}
+
+
+.footer .social a:hover {
+   opacity:0.9;
+}
+.footer ul {
+    margin-top:5px;
+    padding:0 15px;
+    list-style:none;
+    font-size:15px;
+    line-height:1.2;
+    margin-bottom:5px;
+    text-align:center;
+}
+.footer ul li a {
+    color:#fff;
+    text-decoration:none;
+    opacity:0.8;
+
+}
+footer ul li {
+    display:inline-block;
+    padding: 0 15px;
+
+}
+.copyright {
+    font-size:10px;
+    text-align:center;
+    color:#fff;
+}
+.lista {
+    font-size:30px;
+    text-align:center;
+    color:#fff;
+}
+
+.napis {
+    color:#fff; 
+    z-index:0; 
+    font-size:30px;
+    font-family:Arial;
+    text-shadow: 10px 5px 10px black;
+    position:absolute;
+    top:150px;
+    left:40%;
+   
+
+    
+}
+
+.logo {
+  margin-top:10px;
+    
+
+}
+.budowanie {
+    width:100%;
+    height:600px;
+    background-color:#e8ebea;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    gap:2rem;
+   
+}
+.p3 {
+    font-size:32px;
+    font-family:arial;
+    font-weight:bold;
+    padding:10px;    
+    /* text-align:left; */
+}
+.roboty {
+    width:275px;
+    height:250px;
+    padding:5px;
+    display: flex;
+    flex-direction: row-reverse;
+    float:left;
+    margin:30px;
+    border:3px solid black;
+}
+
+
+   
+
+    
+
+.obrazek-container {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .podpis-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 8px;
+  }
+  .tlo-container {
+    width:100%;
+    height:90vh;
+    overflow:hidden;
+    z-index:5;
+  }
+  .tlo {
+    height:100%;
+    min-width:100%;
+
+
+
+
+  }
+  
+    
+.photo-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+.text {
+    
+    max-width: 100%;
+    font-size:25px;
+    text-align:center
+}
+.praca-w-firmie {
+   
+    font-size:25px;
+    font-family:Arial;
+    
+}
+
+.body1 {
+    background-color: #fcf8fb;
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+.div-ogolny {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.lista1 {
+    color:black;
+    padding:30px;
+    text-align:left;
+}
+.section-container {
+    min-height:100vh;
+  
+}
+.formularz {
+    border: solid black;
+    /* width:30%; */
+    /* margin: 0 auto; */
+    margin-bottom:30px;
+}
+
+
+.napis1 {
+    font-size: 36px;
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 50px;
+    text-align: center;
+    width:500px;
+}
+
+label {
+    display: block;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    box-sizing:border-box;
+    padding:0 5px;
+    vertical-align:top;
+    border:1px solid #54A5DA;
+    height:27px;
+    background:#fff;
+    font-size:13px;
+    font-family:Arial;
+    color:#666;
+    display:block;
+    width:100%;
+}
+
+select {
+    height: 40px;
+}
+
+textarea {
+    height:150px;
+    resize:vertical;
+    line-height:1.4em;
+    resize:vertical;
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #333333;
+}
+.przycisk {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin:20px;
+  }
+  
+  .przycisk:hover {
+    background-color: white;
+    color:black;
+    border: 1px solid lime;
+  }
+  .p4 {
+    font-weight:bold;
+  }
+  .kontakt-info {
+    font-size:20px;
+    font-family:Arial;
+    margin:10px;
+  }
+  /* .formularz1 {
+    width:400px;
+  } */
+  .p5 {
+    font-family:Arial;
+    font-size:32px;
+    
+  }
+  .mapa {
+    height:460px;
+    width:460px;
+    /* margin-left:900px;
+    margin-bottom:400px; */
+  }
+  .form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.gallery img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+
+.gallery img:hover {
+    transform: scale(1.4);
+    transition: all 0.2s ease-in-out;
+}
+.pgaleria {
+    text-align:center;
+    font-size:40px;
+    font-family:Arial;
+    padding:20px;
+    
+}
